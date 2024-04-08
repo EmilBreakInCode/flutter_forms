@@ -92,7 +92,8 @@ class _AreaCalculatorState extends State<AreaCalculator> {
                   ),
                   child: const Text('Расчитать'),
                 ),
-                Text(result),
+                Text(result,
+                style: TextStyle(fontSize: 25)),
               ]
           )
       ),
